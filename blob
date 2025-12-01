@@ -1,4 +1,48 @@
-
+if identifyexecutor and string.find(string.lower(identifyexecutor()), "xeno") then 
+	game:GetService("Players").LocalPlayer:Kick("XENO IS NOT FUCKING SUPPORTED")
+	print("XENO IS NOT FUCKING SUPPORTED")
+	warn("XENO IS NOT FUCKING SUPPORTED")
+	error("XENO IS NOT FUCKING SUPPORTED")
+	return
+elseif getthreadidentity and getthreadidentity() < 6 then
+	game:GetService("Players").LocalPlayer:Kick("SHITSPLOIT NOT SUPPORTED")
+	print("SHITSPLOIT NOT SUPPORTED")
+	warn("SHITSPLOIT NOT SUPPORTED")
+	error("SHITSPLOIT NOT SUPPORTED")
+	return 
+elseif not require then
+	game:GetService("Players").LocalPlayer:Kick("SHITSPLOIT NOT SUPPORTED")
+	print("SHITSPLOIT NOT SUPPORTED")
+	warn("SHITSPLOIT NOT SUPPORTED")
+	error("SHITSPLOIT NOT SUPPORTED")
+	return 
+end
+if not isfile("Radion") then
+	makefolder("Radion")
+end
+game:service'Players'.LocalPlayer.Idled:Connect(function()
+	game:service("VirtualUser"):CaptureController()
+	game:service("VirtualUser"):ClickButton2(Vector2.new())
+end)
+local startload = tick()
+local showplr = true
+local namere
+local tooltips = {
+	[1] = "Xeno isnt supported",
+	[2] = "Most premium reborn script",
+	[3] = "Game is dying",
+	[4] = "Most other scripts are shit",
+	[5] = "We take pride in being the best",
+	[6] = "Made with love",
+	[7] = "<3",
+	[8] = "Made by perfectionists",
+	[9] = "We try to be up to date",
+	[10] = "Forever better than nilhub",
+	[11] = "Texchy is a skid",
+	[12] = "Nilhub is chatgpt",
+	[13] = "NilhubK",
+	[14] = "Pineapple on top"
+}
 	Library = {
 		Open = true,
 		Accent = Color3.fromRGB(200, 200, 200),
